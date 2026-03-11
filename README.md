@@ -13,7 +13,6 @@ This project is a Python-based utility designed to automate gratuity calculation
 2. A while loop validates the input data to ensure the bill amount is a positive numerical value.
 3. The system assigns a 10%, 15%, or 20% rate based on the specific thresholds defined in the conditional logic.
 4. The script calculates the tip using the formula: $tip = bill \times percentage / 100$.
-5. 
 
 ---
 
