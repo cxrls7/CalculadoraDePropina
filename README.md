@@ -1,74 +1,30 @@
-## 🧮 Calculadora de Propina en Python
+#  Tip calculator in python
 
 
-## 📌 Descripción
+##  Descripción
 
-Este programa es una calculadora básica desarrollada en Python que permite calcular automáticamente la propina según el valor de una cuenta ingresada por el usuario.
-
-El sistema solicita el nombre del cliente y el valor total de la cuenta, determina el porcentaje correspondiente y muestra el total a pagar.
+This project is a Python-based utility designed to automate gratuity calculations for restaurant bills. It is a robust tool for users who need a quick and error-free way to determine total payments including tiered tip percentages.
 
 ---
 
-## 📊 Reglas de Cálculo
+## How It's work
 
-La propina se calcula según las siguientes condiciones:
-
-Si la cuenta es menor a 20 → 10%
-
-Si la cuenta está entre 20 y 50 → 15%
-
-Si la cuenta es mayor a 50 → 20%
-
----
-
-## 🛡 Validaciones
-
-El programa incluye validaciones para:
-
-Evitar valores negativos.
-
-Detectar cuando el usuario ingresa letras u otros caracteres no numéricos.
-
-Volver a solicitar el valor hasta que sea correcto.
-
-Evitar que el programa se cierre inesperadamente.
-
----
-
-## 🖥 Funcionamiento
-
-Muestra un mensaje de bienvenida.
-
-Solicita el nombre del usuario.
-
-Pide el valor total de la cuenta.
-
-Calcula:
-
-Porcentaje aplicado
-
-Valor de la propina
-
-Total a pagar
-
-Muestra los resultados en pantalla.
-
-Finaliza cuando el usuario presiona Enter.
-
-___
-
-
-## ⚙️ Requisitos
-
-Para ejecutar el programa solo se necesita:
-
-Python 3 instalado en el sistema.
-
-No requiere librerías externas.
+1. The program starts by requesting the user's name to personalize the interaction throughout the session.
+2. A while loop validates the input data to ensure the bill amount is a positive numerical value.
+3. The system assigns a 10%, 15%, or 20% rate based on the specific thresholds defined in the conditional logic.
+4. The script calculates the tip using the formula: $tip = bill \times percentage / 100$.
+5. 
 
 ---
 
 
-## 👨🏻‍💻 Autor
+## Requirements
+
+For run the program only need to had installed python 3 in your computer
+
+---
+
+
+## Author
 
 Carlos Daniel Molina Ordoñez
