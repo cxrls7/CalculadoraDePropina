@@ -17,6 +17,12 @@ This project is a Python-based utility designed to automate gratuity calculation
 
 ---
 
+## Status
+
+The application is finished and ready to be used.
+
+---
+
 
 ## Requirements
 
